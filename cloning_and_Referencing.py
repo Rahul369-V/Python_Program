@@ -1,12 +1,12 @@
 # cloning/copying
 print("\nthis is referencing..")
-b = [1, 2, 3]
+b = [1, 2, 3] #Main List
 print("main list :",b)
 m = b  # this is referencing ,this is not cloning
 
 print("M list  referencing:",m)
 print("id of referenced m list:", id(m)) # ID ARE  SAME FOR THE TWO LIST BECAUSE IT IS referencing
-print("id of main list:", id(b),"\n")
+print("id of Main list:", id(b),"\n")
 
 print("this is cloning or copying...")
 # copying n list to m list

@@ -2,6 +2,7 @@
 # find the odd occurrence in a list
 #best time complexity
 
+# xor is logical operator => IT IS ODD SELECTOR
 
 def getoddoccurrence(arr):
     res = 0

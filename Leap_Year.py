@@ -1,3 +1,5 @@
+#LEAP YEAR OR NOT
+
 year=eval(input("enter the year:"))
 if(year%4==0):
     if(year%100==0):

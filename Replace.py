@@ -8,6 +8,5 @@ def fun1(st):
             newList.append(j)
             continue
     return (''.join(newList))
-
 s=input("enter a given string:")
 print("string after removing '*' : %s"%fun1(s))
